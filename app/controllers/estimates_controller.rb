@@ -1,4 +1,5 @@
 class EstimatesController < ApplicationController
+    skip_before_action :verify_authenticity_token
     def listEvents
         events = Event.all()
         render json: events
