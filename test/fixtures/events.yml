@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lat: MyString
+  log: MyString
+  tipo: MyString
+  name: MyString
+  data: 2019-05-26 07:10:07
+
+two:
+  lat: MyString
+  log: MyString
+  tipo: MyString
+  name: MyString
+  data: 2019-05-26 07:10:07
