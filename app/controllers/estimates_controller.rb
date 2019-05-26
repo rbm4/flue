@@ -1,6 +1,7 @@
 class EstimatesController < ApplicationController
     def listEvents
-        render Event.all()
+        events = Event.all()
+        render json: events
     end
     def newEvent
         event = Event.new
@@ -17,6 +18,6 @@ class EstimatesController < ApplicationController
         event.endereco  = params[:endereco]
         event.link = params[:link]
         event.save
-        render event
+        render json: event
     end
 end
