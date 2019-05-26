@@ -523,3 +523,345 @@ Processing by PagesController#main as HTML
 Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:07:53 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:08:52 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:09:27 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:09:28 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:06 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:08 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:15 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:21 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:32 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:36 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:14:45 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:15:17 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:16:42 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:16:47 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:16:48 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:16:48 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:16:56 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:17:03 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:17:44 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:17:47 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:20:17 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:20:18 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:40:13 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.7.2) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.7.2) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.4ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AdjustEvent (20190526083659)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lat" varchar, "log" varchar, "tipo" varchar, "name" varchar, "data" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "aevents" ("id","lat","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","lat","log","tipo","name","data","created_at","updated_at" FROM "events"[0m
+  [1m[35m (1.5ms)[0m  [1m[35mDROP TABLE "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lat" varchar, "log" varchar, "tipo" varchar, "name" varchar, "data" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","lat","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","lat","log","tipo","name","data","created_at","updated_at" FROM "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  [1m[35m (1.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AdjustEvent (20190526083659)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lat" varchar, "log" varchar, "tipo" varchar, "name" varchar, "data" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aevents" ("id","lat","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","lat","log","tipo","name","data","created_at","updated_at" FROM "events"[0m
+  [1m[35m (1.5ms)[0m  [1m[35mDROP TABLE "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lat" varchar, "log" varchar, "tipo" varchar, "name" varchar, "data" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","lat","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","lat","log","tipo","name","data","created_at","updated_at" FROM "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lat" varchar, "log" varchar, "tipo" varchar, "name" varchar, "data" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aevents" ("id","lat","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","lat","log","tipo","name","data","created_at","updated_at" FROM "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "log" varchar, "tipo" varchar, "name" varchar, "data" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","log","tipo","name","data","created_at","updated_at" FROM "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "log" varchar, "tipo" varchar, "name" varchar, "data" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aevents" ("id","log","tipo","name","data","created_at","updated_at")
+                     SELECT "id","log","tipo","name","data","created_at","updated_at" FROM "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tipo" varchar, "name" varchar, "data" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","tipo","name","data","created_at","updated_at")
+                     SELECT "id","tipo","name","data","created_at","updated_at" FROM "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "categoria" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "descricao" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "participantes" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "hora_inicio" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "hora_fim" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "estado" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "cidade" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "endereco" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "link" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190526083659"]]
+  [1m[35m (13.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:50:05 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:50:08 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:50:10 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:50:34 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:50:43 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:51:11 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.50.77.170 at 2019-05-26 08:53:23 +0000
+Cannot render console from 187.50.77.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
