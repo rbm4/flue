@@ -3,40 +3,24 @@
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--meta http-equiv='X-UA-Compatible' content='IE=edge'-->
     <title>Uber Hack</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--link rel='stylesheet' type='text/css' media='screen' href='main.css'-->
 </head>
 <body>
-    <!--
-    Nome do evento
-    Imagem do evento (?)
-    Quando o evento vai acontecer
-        data de inicio / hora de inicio
-        data de termino / hora de termino
-    Ingresso (pagou ou gratuito)
-    Onde evento vai acontecer
-        (mostrar endereço no google maps?)
-    Descrição do evento
-    Sobre o organizador
-        Nome
-        Descricao
-    Categoria principal (tipo de evento)
-    Quantidade estimada de usuários
-    -->
-    
     <!-- nav-bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">LOGO AQUI</a>
+      <a class="navbar-brand" href="#">
+        <%= image_tag("logo.png", :style => 'width: 10%;')%>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- button trigger modal -->
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto text-nowrap">
           <li class="nav-item">
             <a class="nav-link">
               <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
@@ -45,30 +29,106 @@
             </a>
           </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <button type="button" class="btn">
-                SOBRE NÓS
-              </button>
-            </a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
+        
+        <!--form class="form-inline my-2 my-lg-0 flex-nowrap">
           <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar eventos" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">LUPA</button>
-        </form>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Pesquisar
+          </button>
+        </form-->
       </div>
     </nav>
     
     <!-- home content -->
-    <div class="jumbotron jumbotron-fluid text-center">
+    <div class="row no-margin">
+      <div class="col-sm-12 no-padding flueBg">
+        <%= image_tag("img2.png", :class => "theBg") %>
+        <%= image_tag("title.png",
+          :class => "titleImg",
+          :style => 'position: absolute; width: 35em; padding: 10em 0 0 2em; float: left;')%>
+      </div>
+    </div>
+    
+    <div class="container" style="magin-top: 2em; margin-bottom: 2em;">
+      <div class="row text-center" style="font-size: 1.2em; color: gray;">
+        <div class="col-sm">
+          <%= image_tag("arrow.png", :style => "width: 30%;")%>
+          <p style="padding-top: 2em; margin-bottom: 0;"><b>Planeje o deslocamento</b></p>
+          <p><b>dos participantes</b></p>
+        </div>
+        <div class="col-sm">
+          <%= image_tag("person.png", :style => "width: 30%;")%>
+          <p style="padding-top: 2em; margin-bottom: 0;"><b>Garanta eficiência no</b></p>
+          <p><b>serviço de transporte</b></p>
+        </div>
+        <div class="col-sm">
+          <%= image_tag("two.png", :style => "width: 30%;")%>
+          <p style="padding-top: 2em; margin-bottom: 0;"><b>Ofereça uma experiência</b></p>
+          <p><b>completa com qualidade</b></p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="row no-margin blue-background white register-spacing text-center"
+      style="padding: 3em 0 3em 0;">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4">
+        <h3>Cadastro fácil e rápido para expandir a DIVERSIDADE de mobilidade durante o evento!</h3>
+        <button type="button" class="btn btn btn-outline-light" data-toggle="modal" data-target="#exampleModalCenter">
+          CADASTRE-SE
+        </button>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3"><i class="fa fa-3x fa-motorcycle" aria-hidden="true"></i></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3"><i class="fa fa-3x fa-bicycle" aria-hidden="true"></i></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3"><i class="fa fa-3x fa-taxi" aria-hidden="true"></i></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3"><i class="fa fa-3x fa-train" aria-hidden="true"></i></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3"><i class="fa fa-3x fa-plane" aria-hidden="true"></i></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3"><i class="fa fa-3x fa-rocket" aria-hidden="true"></i></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lead text-center" style="padding: 2em;">
+      <p>
+        <b style="font-size: 2em;">
+          Nossos Parceiros
+        </b>
+      </p>
       <div class="container">
-        <h1 class="display-4">Oi coiso!</h1>
-        <p class="lead">Cebrutius alguma coisa</p>
-        <hr class="my-4">
-        <p>Blablabla compre minha ideia</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
+        <div class="row">
+          <div class="col-sm" style="margin-bottom: 1em;">
+            <%= image_tag("uber.png", :style => 'width: 40%; border-radius: 50%;')%>
+          </div>
+          <div class="col-sm" style="margin-bottom: 1em;">
+            <%= image_tag("99.jpg", :style => 'width: 40%; border-radius: 50%;')%>
+          </div>
+          <div class="col-sm" style="margin-bottom: 1em;">
+            <%= image_tag("easy.jpg", :style => 'width: 40%; border-radius: 50%;')%>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm" style="margin-bottom: 1em;">
+            <%= image_tag("yellow.png", :style => 'width: 40%; border-radius: 50%;')%>
+          </div>
+          <div class="col-sm" style="margin-bottom: 1em;">
+            <%= image_tag("citta2.png", :style => 'width: 40%; border-radius: 50%;')%>
+          </div>
+          <div class="col-sm" style="margin-bottom: 1em;">
+            <%= image_tag("rec.jpg", :style => 'width: 40%; border-radius: 50%;')%>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -84,61 +144,105 @@
           </div>
           <div class="modal-body">
             <!-- registration form  -->
-            <form>
+            <%= form_tag("/event") %>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="orgName">Nome do organizador *</label>
+                <input type="text" name="name" class="form-control" id="orgName" placeholder="Seu nome" required>
               </div>
+              
               <div class="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                <label for="orgEmail">E-mail do organizador *</label>
+                <input type="email" name="email" class="form-control" id="orgEmail" placeholder="nome@empresa.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Número para contato *</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="81999999999"
+                  maxlength="11" required>
+                 <span class="telFormat">Formato: DDD+Número</span>
+              </div>
+              
+              <div class="form-group">
+                <label for="orgName">Nome do evento *</label>
+                <input type="text" name="eventName" class="form-control" id="orgName" placeholder="Seu evento" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="eventType">Categoria de evento *</label>
+                <select class="form-control" name="tipo" id="eventType">
+                  <option>Mega evento (público de x pessoas ou mais)</option>
+                  <option>Evento de grande porte (público de x a y pessoas)</option>
+                  <option>Evento de médio porte (público de x a y pessoas)</option>
+                  <option>Evento de pequeno porte (público a partir de x)</option>
+                  <option>Outro</option>
                 </select>
               </div>
+              
               <div class="form-group">
-                <label for="exampleFormControlSelect2">Example multiple select</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
+                <label for="eventDescription">Descrição do evento *</label>
+                <textarea class="form-control" id="eventDescription" name="descricao" rows="3" required></textarea>
               </div>
+              
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="timeEvent">Data e horário do evento *</label>
+                <p>
+                  Início
+                  <input type="datetime-local" class="form-control" id="timeEvent" name="hora_inicio" required>
+                  Fim
+                  <input type="datetime-local" class="form-control" id="timeEvent" name="hora_fim" required>
+                </p>
               </div>
-            </form>
+              
+              <div class="form-group">
+                <label for="estate">Estado *</label>
+                <input type="text" class="form-control" id="estate" name="estado" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="city">Cidade *</label>
+                <input type="text" class="form-control" id="city" name="cidade" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="address">Endereço *</label>
+                <input type="text" class="form-control" id="address" name="endereco" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="link">Ingressos vendidos *</label>
+                <input type="text" class="form-control" id="participantes" name="participantes" required>
+              </div>
+
+              <div class="form-group">
+                <label for="link">Link do evento *</label>
+                <input type="text" class="form-control" id="link" name="link" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="eventMap">Mapeamento do local do evento *</label>
+                <input type="file" class="form-control-file" id="eventMap" required>
+              </div>
+              
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="termsCheck"
+                  onchange="document.getElementById('sendReqBtn').disabled = !this.checked;" required>
+                <label class="form-check-label" for="exampleCheck1">Ao divulgar este evento reconheço que sou responsável pelos Termos de uso e todas as Obrigatoriedades legais.</label>
+              </div>
+              
+              <div class="form-group">
+                <label for="asteristic">* Campos Obrigatórios</label>
+              </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">REGISTRAR EVENTO</button>
+            <%= submit_tag 'REGISTRAR EVENTO', class: "btn btn-primary", id: "sendReqBtn" %>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
           </div>
+          </form>
         </div>
       </div>
     </div>
-        
-    3 exemplos de eventos aqui
-    
-    PARCEIROS
-    
-    6 parceiros
     
     <!-- footer -->
-    
-    <!-- custom scripts -->
-    <script>
-      function openModal(){
-        console.log("clicou carai");
-        // registerModal
-        document.getElementById('registrationBtn').setAttribute('data-toggle', 'modal');
-      }</script>
-    </script>
     
     <!-- bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

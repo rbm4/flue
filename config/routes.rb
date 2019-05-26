@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'pages#main'
   match 'event', to: 'estimates#newEvent', via: [:post]
   match 'event/show', to: 'estimates#listEvents', via: [:get]
+  match 'event/estimate/:id', to: 'estimates#estimateEvent', via: [:get]
 end

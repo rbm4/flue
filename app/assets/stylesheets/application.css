@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+ .flueBg img {
+  /* Set rules to fill background */
+  max-height: 90%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.titleImg img {
+ width: 30em !important;
+}
+ 
+ .no-padding{
+     padding: 0px !important;
+ }
+
+.no-margin{
+ margin: 0px !important;
+}
+
+.blue-background{
+ background-color: #4EB8A1;
+}
+
+.white{
+ color: white;
+}
+
+.register-spacing{
+ padding-top: 15px;
+ padding-bottom: 20px;
+}

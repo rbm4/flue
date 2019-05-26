@@ -4,11 +4,23 @@ class EstimatesController < ApplicationController
         events = Event.all
         render json: events
     end
+    def estimateEvent
+        event = Event.find(params[:id])
+        dto = EventDto.new
+        dto.best_arrival_time_driver = "21:30h"
+        dto.best_departure_time_client = "21:55h"
+        dto.local_current_average_transit_time_factor = "0.9"
+        coordinates = Coordinates.new
+        coordinates.latitude = "-23.4421"
+        coordinates.longitude = "43.342"
+        dto.current_best_exit_coortidates = coordinates
+        dto.event = event
+        render json: dto
+    end
     def newEvent
         event = Event.new
         event.tipo = params[:tipo]
         event.name = params[:name]
-        event.data = params[:data]
         event.categoria = params[:categoria]
         event.descricao = params[:descricao]
         event.participantes = params[:participantes]
@@ -19,6 +31,19 @@ class EstimatesController < ApplicationController
         event.endereco  = params[:endereco]
         event.link = params[:link]
         event.save
-        render json: event
+        render 'pages/main'
+    end
+    
+    class EventDto
+        attr_accessor :best_arrival_time_driver
+        attr_accessor :best_departure_time_client
+        attr_accessor :event
+        attr_accessor :local_current_average_transit_time_factor
+        attr_accessor :current_best_exit_coortidates
+    end
+    
+    class Coordinates
+        attr_accessor :latitude
+        attr_accessor :longitude
     end
 end
