@@ -7,9 +7,29 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Uber Hack</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <%= image_tag("logo.png", :style => 'width: 10%;')%>
+      </a>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- button trigger modal -->
+        <ul class="navbar-nav ml-auto text-nowrap">
+          <li class="nav-item">
+            <a class="nav-link">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>

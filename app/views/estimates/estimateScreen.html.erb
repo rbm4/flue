@@ -1,0 +1,14 @@
+<div class="row no-margin">
+    <% @dtos.each do |dto| %>
+    <div class="col-sm-4">
+        <div class="container border-padding">
+            Evento: <%= dto.event.tipo %><br>
+            Melhor horário para motorista chegar: <%= dto.best_arrival_time_driver %><br>
+            Melhor horário para motorista partir: <%= dto.best_departure_time_client %><br>
+            Intervalo de maior congestionamento: <%= dto.highest_congestion_interval %><br>
+            Coordenadas (lat, long): <%= dto.current_best_exit_coortidates.latitude %>, <%= dto.current_best_exit_coortidates.longitude %><br>
+            Descrição: <%= dto.event.descricao %>
+        </div>
+    </div>
+    <% end %>
+</div>
