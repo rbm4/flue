@@ -450,3 +450,76 @@ Processing by PagesController#main as HTML
 Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 170.254.150.166 at 2019-05-26 07:56:11 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 239ms (Views: 230.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 07:58:28 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 07:58:44 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 61ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 07:58:51 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:00:48 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:00:50 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:00:57 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:02:59 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 922ms (Views: 918.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 170.254.150.166 at 2019-05-26 08:03:13 +0000
+Cannot render console from 170.254.150.166! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#main as HTML
+  Rendering pages/main.html.erb within layouts/application
+  Rendered pages/main.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
